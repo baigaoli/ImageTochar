@@ -31,7 +31,7 @@ def get_char(r, g, b, alpha = 256):
     gray = int(0.2126 * r + 0.7152 * g + 0.0722 * b)
 
     unit = (256.0 + 1) / length
-    return  ascii_char[int(gray / unit)]
+    return ascii_char[int(gray / unit)]
 
 
 # 将字符输出到文件
